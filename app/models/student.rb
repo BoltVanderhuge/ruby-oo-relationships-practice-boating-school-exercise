@@ -26,6 +26,7 @@ class Student
     def all_instructors 
         self.boating_tests.map(&:instructor).uniq
     end
+    
 
     def grade_percentage
         # all_tests =  []
